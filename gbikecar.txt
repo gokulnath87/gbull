@@ -1,0 +1,27 @@
+
+public class Vehicle {
+    public int wheels;
+    public int seats;
+
+public class Bike extends Vehicle{
+public String handle;
+}
+
+public class Car extends Vehicle{
+public String musicSystem;
+}
+
+public class Demo{
+public static void main(string[] args){
+Bike bike = new Bike();
+bike.wheels=2;
+bike.seats = 2;
+System.out.println("no of wheels:"+bike.wheels);
+System.out.println("no of seats:"+bike.seats);
+
+Car car = new Car();
+car.wheels = 4;
+car.seats = 4;
+
+System.out.println("no of wheels:"+car.wheels);
+System.out.println("no of seats:"+car.seats);
