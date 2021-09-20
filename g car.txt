@@ -1,0 +1,27 @@
+public class car{
+public int noofdoor;
+public int noofseats;
+}
+public class carutilities extends car{
+public string musicsystem;
+public int numberplate;
+}
+public class carinterior extends car{
+public int seatcover;
+}
+
+public class main{
+public static void main(string[] args){
+carinterior tesla = new carinterior();
+carinterior.noofdoor = 4;
+carinterior.noofseats = 4;
+carinterior.musicsystem = "boat";
+carinterior.numberplate = 000;
+carinterior.seatcover = 2;
+System.out.println(carinterior.noofdoor);
+System.out.println(carinterior.noofseats);
+System.out.println(carinterior.musicsystem);
+System.out.println(carinterior.musicsystem);
+System.out.println(carinterior.seatcover);
+}
+}
